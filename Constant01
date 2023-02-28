@@ -1,0 +1,11 @@
+#This is a CONSTANT
+#Here is the difference
+#Variables are NOT CAPITALS 
+#CONSTANTS are in ALL CAPITALS
+
+name = "bob" #Variable
+PI = 3.1415927 #CONSTANT
+
+CHRISTMASDAY = "25th December"
+WEEKDAYBEGININGWITHF = "Friday"
+DATEOFBIRTH = "20/06/08"
