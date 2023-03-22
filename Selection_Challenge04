@@ -1,0 +1,13 @@
+favColour = str(input("What is your favourite colour"))
+
+if favColour == "red":
+  print("I like red too")
+
+elif favColour == "RED":
+    print("I like red too")
+
+elif favColour == "Red":
+    print("I like red too")
+
+else:
+  print("I don't like", favColour,",", favColour, "is for losers")
