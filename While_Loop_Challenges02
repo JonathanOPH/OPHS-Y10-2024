@@ -1,0 +1,5 @@
+number = 0
+while number != 6:
+  number = int(input("Enter a number"))
+  if number >= 6:
+    print("The last number you entered was a", number)
