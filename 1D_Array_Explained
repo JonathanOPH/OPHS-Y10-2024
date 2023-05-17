@@ -1,0 +1,19 @@
+# 1D array or lists explained
+#below is a List
+
+UK = ["England", "Ireland", "Wales"]
+print(UK) #prints whole list
+print(UK[0]) #indexing
+print(UK[1]) #displays different index
+print(UK[1:2]) #displays specific index
+print(UK[1:3]) #displays specific index
+
+#Appending to a list
+
+x = "abc" #new item
+UK.append(x) #appends new item to list
+print(UK) #print list
+
+z = str(input("Enter country:"))
+UK.append(z) #appends new item to list
+print(UK) 
