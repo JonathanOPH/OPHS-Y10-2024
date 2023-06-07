@@ -1,0 +1,7 @@
+#asks the user to input their age
+
+age = str(input("Enter your age:"))
+
+#outputs 'Your age is:' followed by their age
+
+print("Your age is:", age)
