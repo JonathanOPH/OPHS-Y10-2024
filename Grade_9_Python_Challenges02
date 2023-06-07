@@ -1,0 +1,12 @@
+#asks the user to input two numbers 
+
+num1 = int(input("Enter a number:"))
+num2 = int(input("Enter another number:"))
+
+#calculates the average
+
+average = (num1 + num2) / 2
+
+#outputs the result
+
+print("Your average is:", average)
