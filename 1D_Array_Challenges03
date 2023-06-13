@@ -1,0 +1,21 @@
+party = []
+
+people = str(input("Enter 3 people you want at your party:"))
+
+morePeople = True
+
+morePeople = str(input("Do you want to invite anymore?"))
+if morePeople == 'Yes':
+  morePeople = True
+  if morePeople == 'No':
+    morePeople = False
+    
+if morePeople == True:
+  addPeople = str(input("Add as many people as you like:"))
+  party.append(addPeople)
+  party.append(people)
+  print(party)
+  
+else:
+  party.append(people)
+  print(party)
